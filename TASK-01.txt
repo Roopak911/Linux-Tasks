@@ -1,0 +1,61 @@
+1. Display your kernel name.
+Command used to show kernel name is : To check the kernel version in Linux, you can use the following methods: Using the uname command: Run "uname -r" to display the kernel version. Run "uname -a" for more                                           detailed information about the kernel, including the release date and system architecture.
+
+
+2. Display curernt date and time.
+Command used to show current date and time is : To display current date and time under Linux operating system using command prompt use the "date" command or "timedatectl" command. These commands can also                                                       display the current time / date in the given FORMAT. We can set the system date and time as root user too.
+
+
+3. Display your machine name.
+Command used to show machine name is : "hostname". This will print your computer name on the next line.
+
+
+
+4. Get information about peripheral components attached to your system.
+Command used to show information about peripheral components attached to system is : The "lspci" command lists out all the pci buses and details about the devices connected to them. The vga adapter,                                                                                                 graphics card, network adapter, usb ports, sata controllers, etc all fall under this category. By using previous "lspci"                                                                                          command with the -v parameter more detailed information about the PCI devices can get.
+
+
+
+5. Display version and release of kernel.
+Command used to show version and release of kernel name is : To check the kernel version in Linux, you can use the following methods: Using the uname command: Run "uname -r" to display the kernel version.                                                                   Run "uname -a" for more detailed information about the kernel, including the release date and system architecture.
+
+
+6. Dispaly current, next and prev month's calender.
+Commnad to show current, next and prev month's calender is : cal -3
+
+
+
+7. What will be julien date and week day of 13 may 2020?
+The julien date and week day of 13 th May 2020 is 134. By using command "cal -j 13 may 2020" we can find out julian date for particular date. 
+
+
+
+8. Open new terminal and show terminal type and logged in details of user.
+To display the name of your terminal, use the "tty" command.
+
+The "w" command shows information about the Linux users currently on the server, and their running processes.
+
+
+
+9. What is /etc, /root, /home and /var directory used for?
+i. /etc :- The /etc directory contains system configuration information. Several files and subdirectories have been added, removed, or changed. File system commands, such as mount* , have been moved to                    subdirectories of the /usr/lib/fs directory.
+
+ii. /root :- The root directory, represented by a forward slash (/), stores all the directories in Linux. If you cd into this directory and use the ls command, you will find a list of all the directories on                 your machine. The absolute path of every file passes through the root directory as it is the parent to all other directories.
+
+iii. /home :- A home directory is the directory or folder commonly given to a user on a network or Unix or Linux variant operating system. With the home directory the user can store all their personal                        information, files, login scripts, and user information.
+
+iv. /var :- The /var directory contains files that change sizes during normal operation. Several files and subdirectories in the /var directory have been added, removed, or changed. The /var/opt/ packagename               directory contains software package objects that change sizes, such as log and spool files.
+
+
+
+10. Shutdown linux machine after 10 min.
+Commnad to shut down linux machine after 10 min is "sudo shutdown -P +10".
+
+
+
+11. Cancel shutdown of linux machine.
+Commnad used to cancel shut down of linux machine is "shutdown -c".
+
+
+
+
